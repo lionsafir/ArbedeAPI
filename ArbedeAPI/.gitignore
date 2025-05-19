@@ -6,6 +6,7 @@ obj/
 *.user
 *.suo
 .vscode/
+.vs/
 *.json
 appsettings.Development.json
-.vs/
+

@@ -42,6 +42,9 @@ builder.Services.AddScoped<IUnitRepository, UnitRepository>();
 builder.Services.AddScoped<IRaceRepository, RaceRepository>();
 builder.Services.AddScoped<IRaceService, RaceService>();
 
+builder.Services.AddScoped<IPlayerStatsRepository, PlayerStatsRepository>();
+builder.Services.AddScoped<IPlayerStatsService, PlayerStatsService>();
+
 
 
 
