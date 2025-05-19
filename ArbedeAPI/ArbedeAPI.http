@@ -1,0 +1,6 @@
+@ArbedeAPI_HostAddress = http://localhost:5200
+
+GET {{ArbedeAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
